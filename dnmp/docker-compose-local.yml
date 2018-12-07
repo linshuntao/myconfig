@@ -20,8 +20,8 @@ services:
     expose:
       - "9000"
     volumes:
-      - /home/project:/var/www/html/:rw
-      - ./conf/php.ini:/usr/local/etc/php/php.ini:rw
+      - /home/project:/var/www/html:rw
+      - ./conf/php.ini:/usr/local/etc/php/php.ini:ro
       - ./conf/php-fpm.d/www.conf:/usr/local/etc/php-fpm.d/www.conf:rw
       - ~/data/log/:/var/log/dnmp/:rw
     networks:
