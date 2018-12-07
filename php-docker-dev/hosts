@@ -1,6 +1,0 @@
-
-# 在宿主机器增加域名映射
-127.0.0.1 api-local.yunkezan.com www-local.yunkezan.com queue-local.yunkezan.com
-127.0.0.1 eb-local.yaochufa.com afc-local.yaochufa.com  wei-local.yaochufa.com  dis-local.yaochufa.com
-127.0.0.1 you-local.yaochufa.com you2-local.yaochufa.com apiphp-local.yaochufa.com m-local.yaochufa.com activity-local.yaochufa.com zt-local.yaochufa.com job-local.yaochufa.com weixin-local.yaochufa.com apiphp-v2-local.yaochufa.com www-local.yaochufa.com
-127.0.0.1 qyun-local.yaochufa.com queue-local.yaochufa.com
