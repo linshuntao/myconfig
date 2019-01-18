@@ -54,6 +54,16 @@ services:
     ports:
       - "6379:6379"
 
+  rabbit:
+    image: mq-server:latest
+    hostname: rabbit
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=admin
+
 networks:
   net-php:
   net-mysql:
